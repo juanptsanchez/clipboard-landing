@@ -1,0 +1,93 @@
+/*==============================================
+GENERALES
+===============================================*/
+h2 {
+	font-size: 3.5rem;
+}
+h3 {
+	font-size: 2.5rem;
+}
+p {
+	font-size: 1.7rem;
+}
+
+/*==============================================
+SITE-HEADER
+===============================================*/
+.site-header {
+	background-image: url(../assets/images/patternpad.png);
+	padding-bottom: 7rem;
+}
+/* TEXTO HEADER */
+.head-txt h1 {
+	font-size: 5rem;
+}
+/* BOTONES */
+.btns {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2.5rem;
+}
+
+/*==============================================
+SITE-MAIN
+===============================================*/
+.site-main {
+	margin: 8rem auto 0;
+}
+.main-flex {
+  display: flex;
+  margin: 13rem auto;
+  gap: 2rem;
+}
+.main-img {
+  position: relative;
+  flex-basis: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main-img img {
+  position: absolute;
+  left: calc(-5% - 25rem);
+  width: 650px;
+}
+.main-txt {
+	text-align: left;
+  flex-basis: 500px;
+	align-items: flex-start;
+}
+
+/*==============================================
+CLIPBOARD SECTION
+===============================================*/
+.clipboard-img img {
+	max-width: 550px;
+}
+
+/*==============================================
+CLIPBOARD FOOTER SECTION
+===============================================*/
+.clip-footer {
+	margin: 15rem auto 20rem;
+}
+
+/*==============================================
+SITE-FOOTER SECTION
+===============================================*/
+.site-footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0;
+}
+
+/* FOOTER NAV */
+.nav-list {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.nav-list li {
+	justify-content: flex-start;
+}

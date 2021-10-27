@@ -1,0 +1,61 @@
+/*==============================================
+SITE-MAIN
+===============================================*/
+.site-main {
+	margin: 10rem auto 10rem;
+}
+.main-flex {
+  margin: 10rem auto;
+  width: 90%;
+}
+.main-img {
+  position: initial;
+}
+.main-img img {
+  position: initial;
+  width: 580px;
+}
+.main-txt {
+	text-align: center;
+	align-items: center;
+}
+
+/*==============================================
+SUPERCHARGE SECTION
+===============================================*/
+.supercharge-grid {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	max-width: 1200px;
+}
+.supercharge-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 3rem 2rem;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+	text-align: center;
+}
+.supercharge-card p {
+	margin-top: 0;
+}
+.supercharge-icon {
+	font-size: 5rem;
+	color: var(--DarkGrayishBlue);
+}
+
+/*==============================================
+CLIENTS SECTION
+===============================================*/
+.clients-head {
+	margin-bottom: 15rem;
+}
+.logos {
+	flex-direction: row;
+	margin-bottom: 15rem;
+}
