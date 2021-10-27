@@ -18,9 +18,9 @@ Users should be able to:
 
 ### Screenshot
 
-[Mobile](aasets/images/mobile.png)
+[Mobile](asets/images/mobile.png)
 
-[Tablet](aasets/images/tablet.png)
+[Tablet](asets/images/tablet.png)
 
 [Desktop](assets/images/desktop.png)
 
